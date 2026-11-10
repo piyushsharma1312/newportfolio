@@ -4,9 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   base: '/newportfolio/',
-
   plugins: [react(), tailwindcss()],
-
   build: {
     target: 'es2020',
     rollupOptions: {
